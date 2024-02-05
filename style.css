@@ -11,7 +11,7 @@ header {
     color: #ffffff;
 }
 header .header-container {
-    max-width: 700px;
+    max-width: 800px;
     margin: 5px auto 10px auto;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav ul li a {
 }
 .intro .intro-container{
     display: flex;
-    max-width: 700px;
+    max-width: 800px;
     margin: 50px auto;
     gap: 50px;
 }
@@ -49,4 +49,32 @@ nav ul li a {
 }
 .intro .intro-right {
     flex: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.box-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box p {
+    margin: 5px auto;
+    text-align: center;
 }
