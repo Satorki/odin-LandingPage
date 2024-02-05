@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0;
-
+    font-family: "Roboto", sans-serif;
 }
 
 header {
     background-color: #1F2937;
     color: #ffffff;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 header .header-container {
     max-width: 800px;
@@ -28,7 +34,8 @@ nav ul li a {
 
 .hero {
     background-color: #1F2937;
-    color: #ffffff;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .hero .hero-container{
     display: flex;
@@ -38,8 +45,10 @@ nav ul li a {
     padding: 60px 0;
 }
 .hero .hero-left h1 {
-    font-size: 48px;
     margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 .hero .hero-left p {
     margin: 0;
@@ -55,6 +64,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+main h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 .box-container {
     max-width: 700px;
@@ -92,11 +106,16 @@ main {
     justify-content: center;
 }
 .quote-sentence {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
     margin: 0;
 }
 .quote-signature {
     margin: 0;
     text-align: end;
+    font-weight: bold;
 }
 
 .modal {
@@ -117,4 +136,14 @@ footer {
     background-color: #1F2937;
     color: #ffffff;
     text-align: center;
+}
+footer p {
+    margin: 0;
+}
+
+button {
+    color: #ffffff;
+    background-color: #3882F6;
+    font-weight: 500;
+    padding: 5px 15px;
 }
