@@ -2,11 +2,17 @@
     border: 1px solid;
 }
 body {
-    max-width: 700px;
-    margin: 0 auto;
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 header {
+    background-color: #1F2937;
+    color: #ffffff;
+}
+header .header-container {
+    max-width: 700px;
+    margin: 5px auto 10px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -19,11 +25,18 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
-    color: rgb(57, 67, 74);
+    color: #ead0d0;
 }
 
 .intro {
+    background-color: #1F2937;
+    color: #ffffff;
+}
+.intro .intro-container{
     display: flex;
+    max-width: 700px;
+    margin: 50px auto;
+    gap: 50px;
 }
 .intro .intro-left h1 {
     margin: 0;
@@ -32,8 +45,8 @@ nav ul li a {
     margin: 0;
 }
 .intro .intro-left {
-    flex: 1 1 auto;
+    flex: 1;
 }
-.intro .itro-right {
-    flex: 1 1 auto;
+.intro .intro-right {
+    flex: 1;
 }
