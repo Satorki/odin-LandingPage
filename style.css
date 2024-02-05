@@ -1,0 +1,39 @@
+* {
+    border: 1px solid;
+}
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(57, 67, 74);
+}
+
+.intro {
+    display: flex;
+}
+.intro .intro-left h1 {
+    margin: 0;
+}
+.intro .intro-left p {
+    margin: 0;
+}
+.intro .intro-left {
+    flex: 1 1 auto;
+}
+.intro .itro-right {
+    flex: 1 1 auto;
+}
